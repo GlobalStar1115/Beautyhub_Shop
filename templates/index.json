@@ -1,30 +1,29 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "rich_text": {
+      "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "BeautyHub",
-            "heading_size": "h0"
+            "heading": "SUMMER TO SHINE",
+            "heading_size": "hxl"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "<p>Make it your season of brilliance with looks designed to move.<\/p>"
           }
         },
-        "button": {
-          "type": "buttons",
+        "a8536ba4-02a0-412b-ac67-7131bb43a49e": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "Shop Kids'",
+            "button_link_2": "shopify:\/\/collections",
             "button_style_secondary_2": false
           }
         }
@@ -32,42 +31,10 @@
       "block_order": [
         "heading",
         "text",
-        "button"
+        "a8536ba4-02a0-412b-ac67-7131bb43a49e"
       ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/127bce5d-904b-4fdf-9e89-a853e02fa5b1.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
+      "custom_css": [
+
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -76,6 +43,21 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "f85b0924-0abe-4c78-8656-d6ed5fb85333": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/127bce5d-904b-4fdf-9e89-a853e02fa5b1.webp",
+        "description": "main-video",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -214,8 +196,8 @@
     }
   },
   "order": [
-    "image_banner",
     "rich_text",
+    "f85b0924-0abe-4c78-8656-d6ed5fb85333",
     "featured_collection",
     "collage",
     "video",
