@@ -144,33 +144,19 @@
           "settings": {
             "collection": "indoor"
           }
-        },
-        "d599620e-8a62-437c-ae15-97c8fb383f23": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "indoor"
-          }
-        },
-        "959ed9c2-78e1-4901-84ea-4dc387425c7f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "indoor"
-          }
         }
       },
       "block_order": [
         "template--19239081050419__571404b0-051f-47d0-a42c-19e80a9a31c8-1684944066c7881de8-0",
         "template--19239081050419__571404b0-051f-47d0-a42c-19e80a9a31c8-1684944066c7881de8-1",
         "template--19239081050419__571404b0-051f-47d0-a42c-19e80a9a31c8-1684944066c7881de8-2",
-        "a1fca84b-67b4-429c-b947-3772a1f0dd37",
-        "d599620e-8a62-437c-ae15-97c8fb383f23",
-        "959ed9c2-78e1-4901-84ea-4dc387425c7f"
+        "a1fca84b-67b4-429c-b947-3772a1f0dd37"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
