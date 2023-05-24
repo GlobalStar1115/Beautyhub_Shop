@@ -34,7 +34,7 @@
         "a8536ba4-02a0-412b-ac67-7131bb43a49e"
       ],
       "custom_css": [
-
+        ".rich-text__buttons .button--primary {border-radius: 50px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
