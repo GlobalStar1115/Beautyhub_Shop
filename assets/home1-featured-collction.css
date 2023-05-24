@@ -31,3 +31,7 @@
     border-radius: 30px;
     background: #00000073;
 }
+
+.home1-featured-collection .card__badge {
+    display: none;
+}
