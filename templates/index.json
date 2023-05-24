@@ -93,7 +93,7 @@
     "3fb46852-318e-4347-bf52-e0c6a5cad4cb": {
       "type": "home1-featured-collection",
       "settings": {
-        "title": "Home1 Featured collection",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -167,7 +167,7 @@
         "959ed9c2-78e1-4901-84ea-4dc387425c7f"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
