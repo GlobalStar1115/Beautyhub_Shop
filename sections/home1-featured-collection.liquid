@@ -124,14 +124,12 @@
         >
           {% render 'icon-caret' %}
         </button>
-        {% comment %}
-          <div class="slider-counter caption">
-            <span class="slider-counter--current">1</span>
-            <span aria-hidden="true"> / </span>
-            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-            <span class="slider-counter--total">{{ products_to_display }}</span>
-          </div>
-        {% endcomment %}
+        <div class="slider-counter caption">
+          <span class="slider-counter--current">1</span>
+          <span aria-hidden="true"> / </span>
+          <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+          <span class="slider-counter--total">{{ products_to_display }}</span>
+        </div>
         <button
           type="button"
           class="slider-button slider-button--next custom-slider-buttons"
