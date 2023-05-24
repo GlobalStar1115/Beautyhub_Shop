@@ -1,6 +1,5 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
 {{ 'home1-featured-collction.css' | asset_url | stylesheet_tag }}
 
@@ -89,23 +88,16 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            {% render 'card-collection',
-              card_collection: block.settings.collection,
+            {% render 'home1-card-product',
+              card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
-              columns: columns
+              image_shape: section.settings.image_shape,
+              show_secondary_image: section.settings.show_secondary_image,
+              show_vendor: section.settings.show_vendor,
+              show_rating: section.settings.show_rating,
+              show_quick_add: section.settings.enable_quick_add,
+              section_id: section.id
             %}
-            {% comment %}
-              {% render 'home1-card-product',
-                card_product: product,
-                media_aspect_ratio: section.settings.image_ratio,
-                image_shape: section.settings.image_shape,
-                show_secondary_image: section.settings.show_secondary_image,
-                show_vendor: section.settings.show_vendor,
-                show_rating: section.settings.show_rating,
-                show_quick_add: section.settings.enable_quick_add,
-                section_id: section.id
-              %}
-            {% endcomment %}
           </li>
         {%- else -%}
           {%- for i in (1..4) -%}
@@ -116,12 +108,7 @@
                 style="--animation-order: {{ forloop.index }};"
               {% endif %}
             >
-              {% render 'card-collection',
-                card_collection: block.settings.collection,
-                media_aspect_ratio: section.settings.image_ratio,
-                columns: columns
-              %}
-              {% comment %} {% render 'home1-card-product', show_vendor: section.settings.show_vendor %} {% endcomment %}
+              {% render 'home1-card-product', show_vendor: section.settings.show_vendor %}
             </li>
           {%- endfor -%}
         {%- endfor -%}
