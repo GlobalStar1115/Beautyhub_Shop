@@ -1,13 +1,22 @@
 .custom-slider-buttons.slider-button--next {
-    position: absolute;
-    top: 50%;
     right: 40px;
-    transform: translate(0, -50%);
 }
 
 .custom-slider-buttons.slider-button--prev {
+    left: 40px;
+}
+
+.slider-button.custom-slider-buttons {
     position: absolute;
     top: 50%;
-    left: 40px;
     transform: translate(0, -50%);
+    z-index: 3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: white;
+}
+
+.slider-button.custom-slider-buttons .icon {
+    height: 12px;
 }
