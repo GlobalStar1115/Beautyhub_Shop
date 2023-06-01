@@ -4,6 +4,7 @@
 .home-rich-text .rich-text__text,
 .home-rich-text .rich-text__heading {
   font-weight: 900;
+  margin-bottom: 30px;
 }
 .home-rich-text .rich-text__heading {
   transform: scale(1, 2) !important;
