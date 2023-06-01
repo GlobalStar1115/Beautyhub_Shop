@@ -18,6 +18,10 @@
     border: 1px solid darkgray;
 }
 
+.home3-featured-collection .card-media img {
+  filter: grayscale(100%);
+}
+
 .home3-featured-collection .slider-button.custom-slider-buttons .icon {
     height: 12px;
 }
