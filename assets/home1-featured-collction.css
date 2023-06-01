@@ -15,6 +15,7 @@
     width: 40px;
     height: 40px;
     background: white;
+    border: 1px solid darkgray;
 }
 
 .slider-button.custom-slider-buttons .icon {
