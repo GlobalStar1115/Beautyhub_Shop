@@ -1,0 +1,14 @@
+.home-rich-text .rich-text__buttons .button--primary {
+  border-radius: 50px;
+}
+.home-rich-text .rich-text__text,
+.home-rich-text .rich-text__heading {
+  font-weight: 900;
+}
+.home-rich-text .rich-text__heading {
+  transform: scale(1, 2);
+  letter-spacing: -5px;
+}
+.home-rich-text .button:after {
+  box-shadow: none !important;
+}
