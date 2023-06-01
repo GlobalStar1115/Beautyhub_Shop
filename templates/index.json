@@ -188,9 +188,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/9e7d705e-0b6d-410a-9e66-ed5847d3c0a2.webp",
-            "title": "<strong>Nike App<\/strong>",
+            "title": "",
             "text": "<p><strong>Discover What Moves You<\/strong><\/p>",
-            "link_label": "",
+            "link_label": "Nike App",
             "link": "shopify:\/\/collections\/family-pack-1"
           }
         },
@@ -198,9 +198,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/927daf8a-b492-4709-b08f-d325d7f3cc19.webp",
-            "title": "<strong>Nike Training Club<\/strong>",
+            "title": "",
             "text": "<p><strong>Hundreds of Workouts, Breathwork and More<\/strong><\/p>",
-            "link_label": "",
+            "link_label": "Nike Training Club",
             "link": "shopify:\/\/collections\/family-pack-1"
           }
         },
