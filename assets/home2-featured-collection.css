@@ -23,14 +23,7 @@
 }
 
 .home2-featured-collection .custom-slider-counter.slider-counter {
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    color: white;
-    font-size: 16px;
-    padding: 0px 16px;
-    border-radius: 30px;
-    background: #00000073;
+    display: none;
 }
 
 .home2-featured-collection .card__badge {
