@@ -18,7 +18,7 @@
     border: 1px solid darkgray;
 }
 
-.home3-featured-collection .card-media img {
+.home3-featured-collection .card__media img {
   filter: grayscale(100%);
 }
 
