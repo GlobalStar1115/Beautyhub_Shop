@@ -40,3 +40,9 @@
 .home1-featured-collection .underline-links-hover:hover a {
   text-decoration: none;
 }
+
+.home1-featured-collection .full-unstyled-link {
+  color: #111;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
