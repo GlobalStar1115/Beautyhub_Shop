@@ -1,5 +1,5 @@
 .home2-featured-collection .custom-slider-buttons.slider-button--next {
-    right: 40px;
+    left: 80px;
 }
 
 .home2-featured-collection .custom-slider-buttons.slider-button--prev {
@@ -8,7 +8,7 @@
 
 .home2-featured-collection .slider-button.custom-slider-buttons {
     position: absolute;
-    top: 50%;
+    top: -40px;
     transform: translate(0, -50%);
     z-index: 3;
     border-radius: 50%;
