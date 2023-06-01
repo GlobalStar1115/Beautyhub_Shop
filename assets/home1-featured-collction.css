@@ -36,3 +36,7 @@
 .home1-featured-collection .card__badge {
     display: none;
 }
+
+.home1-featured-collection .underline-links-hover:hover a {
+  text-decoration: none;
+}
