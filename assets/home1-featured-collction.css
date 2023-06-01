@@ -18,6 +18,12 @@
     border: 1px solid darkgray;
 }
 
+.home1-featured-collection .card--standard .card__inner {
+    border: 1px solid #6e6e6e !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
 .home1-featured-collection .slider-button.custom-slider-buttons .icon {
     height: 12px;
 }
