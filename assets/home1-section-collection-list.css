@@ -1,6 +1,6 @@
 .home1-collection-list .card__content {
   position: absolute;
-  bottom: 50px;
+  bottom: 10px;
   pading-left: 60px;
 }
 
@@ -11,4 +11,5 @@
   background: white;
   border-radius: 30px;
   padding: 0 20px;
+  margin-left: 30px;
 }
