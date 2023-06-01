@@ -1,0 +1,19 @@
+.home-multicolumn .multicolumn-card-spacing {
+  padding: 0;
+  margin: 0;
+}
+
+.home-multicolumn .multicolumn-card__info {
+  position: absolute;
+  bottom: 0;
+}
+
+.home-multicolumn .multicolumn-card__info .inline-richtext strong {
+    background: white;
+    padding: 5px 24px;
+    border-radius: 30px;
+}
+
+.home-multicolumn .rte {
+  color: white;
+}
