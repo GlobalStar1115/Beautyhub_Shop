@@ -40,7 +40,7 @@
   font-weight: 600;
 }
 
-.home2-featured-collection .custom-view-all {
+.home2-featured-collection .link.custom-view-all {
     position: absolute;
     top: -40px;
     right: 160px;
