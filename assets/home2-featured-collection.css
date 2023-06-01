@@ -1,9 +1,9 @@
 .home2-featured-collection .custom-slider-buttons.slider-button--next {
-    left: 80px;
+    right: 40px;
 }
 
 .home2-featured-collection .custom-slider-buttons.slider-button--prev {
-    left: 40px;
+    right: 100px;
 }
 
 .home2-featured-collection .slider-button.custom-slider-buttons {
