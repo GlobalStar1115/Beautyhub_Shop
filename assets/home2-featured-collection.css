@@ -39,3 +39,13 @@
   font-size: 1.6rem;
   font-weight: 600;
 }
+
+.home2-featured-collection .custom-view-all {
+    position: absolute;
+    top: -40px;
+    right: 160px;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
