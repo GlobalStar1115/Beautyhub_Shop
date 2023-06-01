@@ -44,7 +44,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "f85b0924-0abe-4c78-8656-d6ed5fb85333": {
@@ -54,7 +54,6 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/127bce5d-904b-4fdf-9e89-a853e02fa5b1.webp",
         "description": "main-video",
         "full_width": true,
         "color_scheme": "",
