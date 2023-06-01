@@ -54,11 +54,12 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/127bce5d-904b-4fdf-9e89-a853e02fa5b1.webp",
         "description": "main-video",
         "full_width": true,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "5d3bc4aa-642a-4920-875c-16678c416b19": {
