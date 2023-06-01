@@ -9,9 +9,11 @@
 }
 
 .home-multicolumn .multicolumn-card__info .link {
-    background: white;
-    padding: 5px 24px;
-    border-radius: 30px;
+  background: white;
+  padding: 5px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
 .home-multicolumn .rte {
