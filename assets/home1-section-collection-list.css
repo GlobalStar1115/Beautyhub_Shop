@@ -1,0 +1,14 @@
+.home1-collection-list .card__content {
+  position: absolute;
+  bottom: 50px;
+  pading-left: 60px;
+}
+
+.home1-collection-list .card__content .full-unstyled-link {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: white;
+  border-radius: 30px;
+  padding: 0 20px;
+}
