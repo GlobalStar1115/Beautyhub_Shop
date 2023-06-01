@@ -4,11 +4,11 @@
 .home-rich-text .rich-text__text,
 .home-rich-text .rich-text__heading {
   font-weight: 900;
-  margin-bottom: 30px;
 }
 .home-rich-text .rich-text__heading {
   transform: scale(1, 2) !important;
   letter-spacing: -5px;
+  margin-bottom: 30px;
 }
 .home-rich-text .button:after {
   box-shadow: none !important;
