@@ -88,7 +88,7 @@
     "ab6d8ccc-624a-4357-a045-f20297b176c8": {
       "type": "home2-featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "<strong>Featured collectiona<\/strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -116,7 +116,7 @@
     "8cb28a75-1c56-41c7-bcb5-5954601f6846": {
       "type": "home3-featured-collection",
       "settings": {
-        "title": "Shop By Sport",
+        "title": "<strong>Shop By Sport<\/strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -141,22 +141,22 @@
         "padding_bottom": 36
       }
     },
-    "f65677e3-dca4-4e33-baf4-f79640044689": {
-      "type": "collection-list",
+    "0390021a-b26d-4c5d-8361-de46619b5620": {
+      "type": "home1-collection-list",
       "blocks": {
-        "template--19037881139527__f65677e3-dca4-4e33-baf4-f79640044689-16856415662a9a1f49-0": {
+        "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "indoor"
           }
         },
-        "template--19037881139527__f65677e3-dca4-4e33-baf4-f79640044689-16856415662a9a1f49-1": {
+        "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "family-pack-1"
           }
         },
-        "template--19037881139527__f65677e3-dca4-4e33-baf4-f79640044689-16856415662a9a1f49-2": {
+        "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "family-pack"
@@ -164,12 +164,12 @@
         }
       },
       "block_order": [
-        "template--19037881139527__f65677e3-dca4-4e33-baf4-f79640044689-16856415662a9a1f49-0",
-        "template--19037881139527__f65677e3-dca4-4e33-baf4-f79640044689-16856415662a9a1f49-1",
-        "template--19037881139527__f65677e3-dca4-4e33-baf4-f79640044689-16856415662a9a1f49-2"
+        "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-0",
+        "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-1",
+        "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-2"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "<strong>More Summer Looks<\/strong>",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 3,
@@ -188,6 +188,6 @@
     "5d3bc4aa-642a-4920-875c-16678c416b19",
     "ab6d8ccc-624a-4357-a045-f20297b176c8",
     "8cb28a75-1c56-41c7-bcb5-5954601f6846",
-    "f65677e3-dca4-4e33-baf4-f79640044689"
+    "0390021a-b26d-4c5d-8361-de46619b5620"
   ]
 }
