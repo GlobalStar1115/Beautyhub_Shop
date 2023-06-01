@@ -113,6 +113,7 @@
         {%- endfor -%}
       </ul>
       {%- if show_mobile_slider or show_desktop_slider -%}
+        {% comment %} <div class="slider-buttons custom-slider-buttons no-js-hidden"> {% endcomment %}
           <button
             type="button"
             class="slider-button slider-button--prev"
@@ -137,6 +138,7 @@
           >
             {% render 'icon-caret' %}
           </button>
+        {% comment %} </div> {% endcomment %}
       {%- endif -%}
     </slider-component>
 
