@@ -87,7 +87,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            {% render 'card-product',
+            {% render 'home1-card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
               image_shape: section.settings.image_shape,
@@ -107,13 +107,12 @@
                 style="--animation-order: {{ forloop.index }};"
               {% endif %}
             >
-              {% render 'card-product', show_vendor: section.settings.show_vendor %}
+              {% render 'home1-card-product', show_vendor: section.settings.show_vendor %}
             </li>
           {%- endfor -%}
         {%- endfor -%}
       </ul>
       {%- if show_mobile_slider or show_desktop_slider -%}
-        <div class="slider-buttons no-js-hidden">
           <button
             type="button"
             class="slider-button slider-button--prev"
@@ -138,7 +137,6 @@
           >
             {% render 'icon-caret' %}
           </button>
-        </div>
       {%- endif -%}
     </slider-component>
 
