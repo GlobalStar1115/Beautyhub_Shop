@@ -6,7 +6,7 @@
   font-weight: 900;
 }
 .home-rich-text .rich-text__heading {
-  transform: scale(1, 2);
+  transform: scale(1, 2) !important;
   letter-spacing: -5px;
 }
 .home-rich-text .button:after {
