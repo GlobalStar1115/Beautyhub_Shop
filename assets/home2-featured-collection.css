@@ -1,12 +1,12 @@
-.custom-slider-buttons.slider-button--next {
+.home2-featured-collection .custom-slider-buttons.slider-button--next {
     right: 40px;
 }
 
-.custom-slider-buttons.slider-button--prev {
+.home2-featured-collection .custom-slider-buttons.slider-button--prev {
     left: 40px;
 }
 
-.slider-button.custom-slider-buttons {
+.home2-featured-collection .slider-button.custom-slider-buttons {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -18,11 +18,11 @@
     border: 1px solid darkgray;
 }
 
-.slider-button.custom-slider-buttons .icon {
+.home2-featured-collection .slider-button.custom-slider-buttons .icon {
     height: 12px;
 }
 
-.custom-slider-counter.slider-counter {
+.home2-featured-collection .custom-slider-counter.slider-counter {
     position: absolute;
     left: 50%;
     top: 20%;
