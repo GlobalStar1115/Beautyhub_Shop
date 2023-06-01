@@ -116,14 +116,14 @@
         {% comment %} <div class="slider-buttons custom-slider-buttons no-js-hidden"> {% endcomment %}
           <button
             type="button"
-            class="slider-button slider-button--prev"
+            class="slider-button slider-button--prev custom-slider-buttons"
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
             aria-controls="Slider-{{ section.id }}"
           >
             {% render 'icon-caret' %}
           </button>
-          <div class="slider-counter caption">
+          <div class="slider-counter caption custom-slider-counter">
             <span class="slider-counter--current">1</span>
             <span aria-hidden="true"> / </span>
             <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
@@ -131,7 +131,7 @@
           </div>
           <button
             type="button"
-            class="slider-button slider-button--next"
+            class="slider-button slider-button--next custom-slider-buttons"
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
             aria-controls="Slider-{{ section.id }}"
