@@ -1,50 +1,45 @@
 {
   "sections": {
-    "rich_text": {
-      "type": "rich-text",
+    "e25ca10a-87de-495b-977c-025efc16c047": {
+      "type": "home-rich-text",
       "blocks": {
-        "heading": {
+        "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-0": {
           "type": "heading",
           "settings": {
             "heading": "SUMMER TO SHINE",
-            "heading_size": "hxl"
+            "heading_size": "h1"
           }
         },
-        "text": {
+        "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-1": {
           "type": "text",
           "settings": {
             "text": "<p>Make it your season of brilliance with looks designed to move.<\/p>"
           }
         },
-        "a8536ba4-02a0-412b-ac67-7131bb43a49e": {
+        "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-2": {
           "type": "button",
           "settings": {
             "button_label": "Shop",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify:\/\/collections\/family-pack",
             "button_style_secondary": false,
             "button_label_2": "Shop Kids'",
-            "button_link_2": "shopify:\/\/collections",
+            "button_link_2": "shopify:\/\/collections\/family-pack-1",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "a8536ba4-02a0-412b-ac67-7131bb43a49e"
-      ],
-      "custom_css": [
-        ".rich-text__buttons .button--primary {border-radius: 50px; font-weight: 900;}",
-        ".rich-text__text,.rich-text__heading {font-weight: 900;}",
-        ".button:after {box-shadow: none !important;}"
+        "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-0",
+        "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-1",
+        "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-2"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 52
       }
     },
     "f85b0924-0abe-4c78-8656-d6ed5fb85333": {
@@ -92,7 +87,7 @@
     }
   },
   "order": [
-    "rich_text",
+    "e25ca10a-87de-495b-977c-025efc16c047",
     "f85b0924-0abe-4c78-8656-d6ed5fb85333",
     "5d3bc4aa-642a-4920-875c-16678c416b19"
   ]
