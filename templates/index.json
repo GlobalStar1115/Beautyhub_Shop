@@ -181,6 +181,62 @@
         "padding_bottom": 36
       }
     },
+    "8fc97b3c-6abc-44e8-b761-ab5530d22483": {
+      "type": "home-multicolumn",
+      "blocks": {
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9e7d705e-0b6d-410a-9e66-ed5847d3c0a2.webp",
+            "title": "<strong>Nike App<\/strong>",
+            "text": "<p><strong>Discover What Moves You<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/927daf8a-b492-4709-b08f-d325d7f3cc19.webp",
+            "title": "<strong>Nike Training Club<\/strong>",
+            "text": "<p><strong>Hundreds of Workouts, Breathwork and More<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0",
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1",
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2"
+      ],
+      "settings": {
+        "title": "<strong>Discover Our Apps<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1236e109-6516-4583-a6b9-c3f73560b062": {
       "type": "home1-featured-collection",
       "settings": {
@@ -208,51 +264,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "bfc24be7-c5c1-49ee-8e1d-3d9bd2f3900f": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19037881139527__bfc24be7-c5c1-49ee-8e1d-3d9bd2f3900f-1685643701cbfe71c4-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/9e7d705e-0b6d-410a-9e66-ed5847d3c0a2.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19037881139527__bfc24be7-c5c1-49ee-8e1d-3d9bd2f3900f-1685643701cbfe71c4-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/927daf8a-b492-4709-b08f-d325d7f3cc19.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19037881139527__bfc24be7-c5c1-49ee-8e1d-3d9bd2f3900f-1685643701cbfe71c4-0",
-        "template--19037881139527__bfc24be7-c5c1-49ee-8e1d-3d9bd2f3900f-1685643701cbfe71c4-1"
-      ],
-      "settings": {
-        "title": "<strong>Discover Our Apps<\/strong>",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -262,7 +273,7 @@
     "ab6d8ccc-624a-4357-a045-f20297b176c8",
     "0390021a-b26d-4c5d-8361-de46619b5620",
     "8cb28a75-1c56-41c7-bcb5-5954601f6846",
-    "1236e109-6516-4583-a6b9-c3f73560b062",
-    "bfc24be7-c5c1-49ee-8e1d-3d9bd2f3900f"
+    "8fc97b3c-6abc-44e8-b761-ab5530d22483",
+    "1236e109-6516-4583-a6b9-c3f73560b062"
   ]
 }
