@@ -65,7 +65,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "family-pack-1",
+        "collection": "indoor",
         "products_to_show": 17,
         "columns_desktop": 4,
         "full_width": true,
@@ -73,7 +73,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -125,13 +125,13 @@
         "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "family-pack-1"
+            "collection": "indoor"
           }
         },
         "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "family-pack"
+            "collection": "indoor"
           }
         }
       },
@@ -245,7 +245,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "family-pack",
+        "collection": "indoor",
         "products_to_show": 16,
         "columns_desktop": 4,
         "full_width": false,
@@ -253,7 +253,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
