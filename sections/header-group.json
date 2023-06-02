@@ -65,7 +65,8 @@
         "22b5e1d5-bd87-44ff-9bb2-7c5356b735df"
       ],
       "custom_css": [
-        ".announcement-bar-slider .slider-button {display: none;}"
+        ".announcement-bar-slider .slider-button {display: none;}",
+        ".announcement-bar-slider{background: #f5f5f5;}"
       ],
       "settings": {
         "color_scheme": "background-1",
