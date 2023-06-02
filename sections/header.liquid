@@ -291,10 +291,10 @@
         {% endif %}
         
         {%- if shop.customer_accounts_enabled -%}
-          {% if customer %}
-            <span>Welcome, {{ customer.first_name }}</span>
-          {% endif %}
           <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+            {% if customer %}
+              <span>Hi, {{ customer.first_name }}</span>
+            {% endif %}
             {% render 'icon-account' %}
             <span class="visually-hidden">
               {%- liquid
