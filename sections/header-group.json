@@ -64,6 +64,9 @@
         "sections--19359979766067__52695146-fe12-40cd-aef0-54078db85dff-1685690468a50a1d62-0",
         "22b5e1d5-bd87-44ff-9bb2-7c5356b735df"
       ],
+      "custom_css": [
+        ".announcement-bar-slider .slider-button {display: none;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "show_line_separator": false,
