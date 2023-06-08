@@ -42,19 +42,20 @@
         "padding_bottom": 52
       }
     },
-    "f85b0924-0abe-4c78-8656-d6ed5fb85333": {
-      "type": "video",
+    "6dc0bb32-5f5f-4f4c-822c-455270132079": {
+      "type": "image-banner",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/127bce5d-904b-4fdf-9e89-a853e02fa5b1.webp",
-        "description": "main-video",
-        "full_width": true,
+        "image": "shopify:\/\/shop_images\/nike-just-do-it.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "5d3bc4aa-642a-4920-875c-16678c416b19": {
@@ -268,7 +269,7 @@
   },
   "order": [
     "e25ca10a-87de-495b-977c-025efc16c047",
-    "f85b0924-0abe-4c78-8656-d6ed5fb85333",
+    "6dc0bb32-5f5f-4f4c-822c-455270132079",
     "5d3bc4aa-642a-4920-875c-16678c416b19",
     "ab6d8ccc-624a-4357-a045-f20297b176c8",
     "0390021a-b26d-4c5d-8361-de46619b5620",
