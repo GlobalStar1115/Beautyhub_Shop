@@ -120,7 +120,7 @@
     "ab6d8ccc-624a-4357-a045-f20297b176c8": {
       "type": "home2-featured-collection",
       "settings": {
-        "title": "<strong>Featured Services<\/strong>",
+        "title": "<strong>Featured <\/strong>Services",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
