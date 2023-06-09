@@ -188,7 +188,7 @@
         "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_17.png",
+            "image": "shopify:\/\/shop_images\/salon1.png",
             "title": "",
             "text": "<p><strong>Discover What Moves You<\/strong><\/p>",
             "link_label": "Nike App",
@@ -221,11 +221,14 @@
         "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1",
         "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "<strong>Best Sellers<\/strong>",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
