@@ -234,7 +234,7 @@
       ],
       "settings": {
         "title": "<strong>Featured<\/strong> Collections",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "",
@@ -307,7 +307,7 @@
       "type": "home1-featured-collection",
       "settings": {
         "title": "<strong>Featured <\/strong>Products",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
