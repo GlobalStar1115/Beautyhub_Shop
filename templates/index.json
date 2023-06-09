@@ -235,7 +235,7 @@
       "settings": {
         "title": "<strong>Featured<\/strong> Collections",
         "heading_size": "h2",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
