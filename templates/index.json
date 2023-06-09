@@ -66,8 +66,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/salon1.png",
             "title": "",
-            "text": "<p><strong>Discover What Moves You<\/strong><\/p>",
-            "link_label": "Nike App",
+            "text": "<h2><strong>Hair and BeautyAppointment Booking<\/strong><\/h2>",
+            "link_label": "SALON CLUB",
             "link": "shopify:\/\/pages\/seller-profile"
           }
         },
