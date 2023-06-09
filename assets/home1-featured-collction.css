@@ -28,6 +28,10 @@
     height: 12px;
 }
 
+.home1-featured-collection .collection__title {
+  padding-left: 20px;
+}
+
 .home1-featured-collection .custom-slider-counter.slider-counter {
     position: absolute;
     left: 50%;
