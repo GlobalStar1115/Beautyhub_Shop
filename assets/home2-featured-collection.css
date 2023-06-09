@@ -2,6 +2,10 @@
     right: 40px;
 }
 
+.home2-featured-collection .collection__title {
+  padding-right: 20px;
+}
+
 .home2-featured-collection .custom-slider-buttons.slider-button--prev {
     right: 90px;
 }
