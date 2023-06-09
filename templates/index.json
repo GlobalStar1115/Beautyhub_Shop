@@ -121,7 +121,7 @@
       "type": "home2-featured-collection",
       "settings": {
         "title": "<strong>Featured Services<\/strong>",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
