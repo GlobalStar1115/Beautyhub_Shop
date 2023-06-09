@@ -276,6 +276,7 @@
     },
     "8cb28a75-1c56-41c7-bcb5-5954601f6846": {
       "type": "home3-featured-collection",
+      "disabled": true,
       "settings": {
         "title": "<strong>Featured<\/strong> Products",
         "heading_size": "h2",
@@ -304,7 +305,6 @@
     },
     "1236e109-6516-4583-a6b9-c3f73560b062": {
       "type": "home1-featured-collection",
-      "disabled": true,
       "settings": {
         "title": "<strong>Nike Membership<\/strong>",
         "heading_size": "h2",
