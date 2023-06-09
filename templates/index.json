@@ -66,7 +66,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/salon1.png",
             "title": "",
-            "text": "<h2><strong>Hair and BeautyAppointment Booking<\/strong><\/h2>",
+            "text": "<h4><strong>Hair and BeautyAppointment Booking<\/strong><\/h4>",
             "link_label": "SALON CLUB",
             "link": "shopify:\/\/pages\/seller-profile"
           }
@@ -74,9 +74,9 @@
         "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/New_Project.png",
+            "image": "shopify:\/\/shop_images\/3268f91a-6387-4777-879c-ad90ff4f6d42.webp",
             "title": "",
-            "text": "<h2><strong>Hundreds of Workouts, Breathwork and More<\/strong><\/h2>",
+            "text": "<p><strong>Hundreds of Workouts, Breathwork and More<\/strong><\/p>",
             "link_label": "TRAINING CLUB",
             "link": "shopify:\/\/collections\/family-pack-1"
           }
