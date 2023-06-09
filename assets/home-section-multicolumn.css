@@ -23,3 +23,7 @@
 .multicolumn.home-multicolumn {
   padding: 0 20px;
 }
+
+.multicolumn.home-multicolumn img {
+  width: 100% !important;
+}
