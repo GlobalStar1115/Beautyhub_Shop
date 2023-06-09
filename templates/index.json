@@ -6,23 +6,23 @@
         "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-0": {
           "type": "heading",
           "settings": {
-            "heading": "SUMMER TO SHINE",
-            "heading_size": "h1"
+            "heading": "BCX Marketplace",
+            "heading_size": "h0"
           }
         },
         "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Make it your season of brilliance with looks designed to move.<\/p>"
+            "text": "<h1>Where Innovation Meets Convenience!<\/h1>"
           }
         },
         "template--19037881139527__e25ca10a-87de-495b-977c-025efc16c047-16856342625ab4f415-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop",
+            "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/family-pack",
             "button_style_secondary": false,
-            "button_label_2": "Shop Kids'",
+            "button_label_2": "",
             "button_link_2": "shopify:\/\/collections\/family-pack-1",
             "button_style_secondary_2": false
           }
@@ -45,7 +45,7 @@
     "6dc0bb32-5f5f-4f4c-822c-455270132079": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/nike-just-do-it.jpg",
+        "image": "shopify:\/\/shop_images\/documents_gen_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
