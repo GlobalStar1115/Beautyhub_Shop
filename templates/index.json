@@ -58,6 +58,65 @@
         "show_text_below": true
       }
     },
+    "8fc97b3c-6abc-44e8-b761-ab5530d22483": {
+      "type": "home-multicolumn",
+      "blocks": {
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/salon1.png",
+            "title": "",
+            "text": "<p><strong>Discover What Moves You<\/strong><\/p>",
+            "link_label": "Nike App",
+            "link": "shopify:\/\/pages\/seller-profile"
+          }
+        },
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/preventionsanteentreprise.jpg__1426x800_q70_crop_subsampling-2.jpg",
+            "title": "",
+            "text": "<p><strong>Hundreds of Workouts, Breathwork and More<\/strong><\/p>",
+            "link_label": "Nike Training Club",
+            "link": "shopify:\/\/collections\/family-pack-1"
+          }
+        },
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0",
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1",
+        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "<strong>Top Services<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5d3bc4aa-642a-4920-875c-16678c416b19": {
       "type": "home1-featured-collection",
       "settings": {
@@ -182,65 +241,6 @@
         "padding_bottom": 36
       }
     },
-    "8fc97b3c-6abc-44e8-b761-ab5530d22483": {
-      "type": "home-multicolumn",
-      "blocks": {
-        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/salon1.png",
-            "title": "",
-            "text": "<p><strong>Discover What Moves You<\/strong><\/p>",
-            "link_label": "Nike App",
-            "link": "shopify:\/\/pages\/seller-profile"
-          }
-        },
-        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/preventionsanteentreprise.jpg__1426x800_q70_crop_subsampling-2.jpg",
-            "title": "",
-            "text": "<p><strong>Hundreds of Workouts, Breathwork and More<\/strong><\/p>",
-            "link_label": "Nike Training Club",
-            "link": "shopify:\/\/collections\/family-pack-1"
-          }
-        },
-        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0",
-        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1",
-        "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "<strong>Top Services<\/strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1236e109-6516-4583-a6b9-c3f73560b062": {
       "type": "home1-featured-collection",
       "settings": {
@@ -273,11 +273,11 @@
   "order": [
     "e25ca10a-87de-495b-977c-025efc16c047",
     "6dc0bb32-5f5f-4f4c-822c-455270132079",
+    "8fc97b3c-6abc-44e8-b761-ab5530d22483",
     "5d3bc4aa-642a-4920-875c-16678c416b19",
     "ab6d8ccc-624a-4357-a045-f20297b176c8",
     "0390021a-b26d-4c5d-8361-de46619b5620",
     "8cb28a75-1c56-41c7-bcb5-5954601f6846",
-    "8fc97b3c-6abc-44e8-b761-ab5530d22483",
     "1236e109-6516-4583-a6b9-c3f73560b062"
   ]
 }
