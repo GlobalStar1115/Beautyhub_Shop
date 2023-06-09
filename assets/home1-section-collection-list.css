@@ -17,3 +17,7 @@
 .home1-collection-list .slider-buttons {
   display: none;
 }
+
+.collection-list-wrapper.home1-collection-list {
+  padding: 0 20px;
+}
