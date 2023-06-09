@@ -19,3 +19,7 @@
 .home-multicolumn .rte {
   color: white;
 }
+
+.multicolumn.home-multicolumn {
+  padding: 0 20px;
+}
