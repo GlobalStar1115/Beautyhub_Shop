@@ -233,7 +233,7 @@
         "b602bfe4-6fed-4c20-9573-5aef054474f9"
       ],
       "settings": {
-        "title": "<strong>Featured Services<\/strong>",
+        "title": "<strong>Featured<\/strong> Collections",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 4,
@@ -247,6 +247,7 @@
     },
     "5d3bc4aa-642a-4920-875c-16678c416b19": {
       "type": "home1-featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -303,6 +304,7 @@
     },
     "1236e109-6516-4583-a6b9-c3f73560b062": {
       "type": "home1-featured-collection",
+      "disabled": true,
       "settings": {
         "title": "<strong>Nike Membership<\/strong>",
         "heading_size": "h2",
