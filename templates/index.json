@@ -188,7 +188,7 @@
         "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9e7d705e-0b6d-410a-9e66-ed5847d3c0a2.webp",
+            "image": "shopify:\/\/shop_images\/Screenshot_17.png",
             "title": "",
             "text": "<p><strong>Discover What Moves You<\/strong><\/p>",
             "link_label": "Nike App",
@@ -198,7 +198,7 @@
         "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/927daf8a-b492-4709-b08f-d325d7f3cc19.webp",
+            "image": "shopify:\/\/shop_images\/preventionsanteentreprise.jpg__1426x800_q70_crop_subsampling-2.jpg",
             "title": "",
             "text": "<p><strong>Hundreds of Workouts, Breathwork and More<\/strong><\/p>",
             "link_label": "Nike Training Club",
@@ -222,10 +222,10 @@
         "template--19037881139527__8fc97b3c-6abc-44e8-b761-ab5530d22483-1685644129090e27d3-2"
       ],
       "settings": {
-        "title": "<strong>Discover Our Apps<\/strong>",
+        "title": "<strong>Best Sellers<\/strong>",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
