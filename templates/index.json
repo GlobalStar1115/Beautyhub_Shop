@@ -173,8 +173,19 @@
             "link": "shopify:\/\/pages\/seller-profile"
           }
         },
+        "4b92ed05-1934-4e44-ad0b-003386083ebb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nike-just-do-it_f0e777f2-7c4c-4250-929c-8db3c5ca755c.jpg",
+            "title": "",
+            "text": "<p><strong>The world's largest athletic apparel company<\/strong><\/p>",
+            "link_label": "Nike",
+            "link": ""
+          }
+        },
         "1401a7a3-14c7-4b67-86b8-2b6f4e63064d": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/img_about_2_768x_40bed461-3eaf-4194-bdc1-246916323327.webp",
             "title": "",
@@ -185,6 +196,7 @@
         },
         "7f870072-de22-4e81-bd2d-d85764229bc9": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Collabs-arriba-mobile_400x_7877a54b-0018-4845-8baa-bd54147b0d20.webp",
             "title": "",
@@ -192,30 +204,20 @@
             "link_label": "Callaghan",
             "link": ""
           }
-        },
-        "4b92ed05-1934-4e44-ad0b-003386083ebb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5027a28c-3984-4287-94d1-ee6198238ce9.webp",
-            "title": "",
-            "text": "<h3><strong>The world's largest athletic apparel company<\/strong><\/h3>",
-            "link_label": "Nike",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "d270c927-fe05-4ce1-b5e7-1ae338afc1a2",
+        "4b92ed05-1934-4e44-ad0b-003386083ebb",
         "1401a7a3-14c7-4b67-86b8-2b6f4e63064d",
-        "7f870072-de22-4e81-bd2d-d85764229bc9",
-        "4b92ed05-1934-4e44-ad0b-003386083ebb"
+        "7f870072-de22-4e81-bd2d-d85764229bc9"
       ],
       "settings": {
         "title": "<strong>Top<\/strong> Shop",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "portrait",
-        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
