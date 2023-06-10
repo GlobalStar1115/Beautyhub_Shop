@@ -111,7 +111,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "indoor",
+        "collection": "salon-club",
         "products_to_show": 16,
         "columns_desktop": 3,
         "full_width": true,
