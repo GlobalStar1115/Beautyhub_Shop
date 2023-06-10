@@ -17,6 +17,10 @@
     object-fit: cover;
 }
 
+.product-block .mp-product-image-block {
+  height: auto !important;
+}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
