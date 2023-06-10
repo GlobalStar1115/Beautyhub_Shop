@@ -170,7 +170,7 @@
             "title": "",
             "text": "<p><strong>Hair and BeautyAppointment Booking<\/strong><\/p>",
             "link_label": "JimmyLion",
-            "link": "shopify:\/\/pages\/seller-profile"
+            "link": "https:\/\/simon-beautyhub.myshopify.com\/pages\/seller-profile?jimmylion"
           }
         },
         "4b92ed05-1934-4e44-ad0b-003386083ebb": {
@@ -180,7 +180,7 @@
             "title": "",
             "text": "<p><strong>The world's largest athletic apparel company<\/strong><\/p>",
             "link_label": "Nike",
-            "link": ""
+            "link": "https:\/\/simon-beautyhub.myshopify.com\/pages\/seller-profile?jimmylion"
           }
         },
         "1401a7a3-14c7-4b67-86b8-2b6f4e63064d": {
@@ -235,19 +235,19 @@
         "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "indoor"
+            "collection": "training-club"
           }
         },
         "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "indoor"
+            "collection": "salon-club"
           }
         },
         "template--19037881139527__0390021a-b26d-4c5d-8361-de46619b5620-16856421144b1fb3e4-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "indoor"
+            "collection": "jimmylion"
           }
         },
         "b602bfe4-6fed-4c20-9573-5aef054474f9": {
