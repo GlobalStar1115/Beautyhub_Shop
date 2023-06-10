@@ -10,6 +10,13 @@
   font-family: 'Nike Futura', sans-serif !important;
 }
 
+.mp-banner-container img {
+    max-width: 100% !important;
+    height: 500px !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
