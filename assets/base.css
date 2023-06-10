@@ -17,6 +17,14 @@
     object-fit: cover;
 }
 
+.sellers .mp-seller-grid div.mp-seller-logo-block img {
+    margin: auto;
+    display: block;
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .product-block .mp-product-image-block {
   height: auto !important;
 }
