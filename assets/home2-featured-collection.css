@@ -62,4 +62,8 @@
   .home2-featured-collection .slider-component.page-width {
     padding: 0;
   }
+
+  .home2-featured-collection .slider-component.page-width a {
+    font-size: 12px;
+  }
 }
