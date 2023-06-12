@@ -19,10 +19,18 @@
     background: rgb(0 0 0 / 30%);
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #login-register-popup .login a {
   display: block !important;
+}
+
+#login-register-popup .popup-content {
+    background: white;
+    width: 500px;
 }
 
 .mp_sp_page .mp-banner-container img {
