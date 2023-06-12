@@ -27,3 +27,10 @@
 .multicolumn.home-multicolumn img {
   width: 100% !important;
 }
+
+@media screen and (max-width: 600px) {
+  .home-multicolumn .multicolumn-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
