@@ -13,3 +13,17 @@
 .home-rich-text .button:after {
   box-shadow: none !important;
 }
+
+@media screen and (max-width: 600px) {
+  .home-rich-text .rich-text__heading {
+    font-size: 30px
+  }
+
+  .home-rich-text .rich-text__text h1 {
+    font-size: 20px;
+  }
+
+  .home-rich-text .rich-text__buttons a {
+    font-size: 12px;
+  }
+}
