@@ -45,4 +45,8 @@
   .home-multicolumn meida {
     height: 200px;
   }
+  
+  .multicolumn.home-multicolumn {
+    padding: 0px;
+  }
 }
