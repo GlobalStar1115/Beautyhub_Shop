@@ -38,6 +38,7 @@
 
     {{ content_for_header }} 
  {{ 'servicify-asset.js' | asset_url | script_tag }}
+{% include 'custom-login-popup' %}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
