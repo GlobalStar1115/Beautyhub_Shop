@@ -42,6 +42,57 @@
         "padding_bottom": 52
       }
     },
+    "9a7a2c8f-e20d-42f1-a476-677292c18cc4": {
+      "type": "home-image-banner",
+      "blocks": {
+        "template--19359980323123__9a7a2c8f-e20d-42f1-a476-677292c18cc4-16865499916f2fc0b2-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "BeautyHub",
+            "heading_size": "h1"
+          }
+        },
+        "template--19359980323123__9a7a2c8f-e20d-42f1-a476-677292c18cc4-16865499916f2fc0b2-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19359980323123__9a7a2c8f-e20d-42f1-a476-677292c18cc4-16865499916f2fc0b2-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19359980323123__9a7a2c8f-e20d-42f1-a476-677292c18cc4-16865499916f2fc0b2-0",
+        "template--19359980323123__9a7a2c8f-e20d-42f1-a476-677292c18cc4-16865499916f2fc0b2-1",
+        "template--19359980323123__9a7a2c8f-e20d-42f1-a476-677292c18cc4-16865499916f2fc0b2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/documents_gen_1_d259093c-b3ff-492a-9fcb-0526f758e757.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "6dc0bb32-5f5f-4f4c-822c-455270132079": {
       "type": "image-banner",
       "disabled": true,
@@ -337,6 +388,7 @@
   },
   "order": [
     "e25ca10a-87de-495b-977c-025efc16c047",
+    "9a7a2c8f-e20d-42f1-a476-677292c18cc4",
     "6dc0bb32-5f5f-4f4c-822c-455270132079",
     "8fc97b3c-6abc-44e8-b761-ab5530d22483",
     "ab6d8ccc-624a-4357-a045-f20297b176c8",
