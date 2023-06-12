@@ -53,3 +53,9 @@
     font-size: 1.6rem;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+  .home2-featured-collection .link.custom-view-all, .home2-featured-collection .custom-slider-buttons.slider-button--prev, .home2-featured-collection .custom-slider-buttons.slider-button--next {
+    display: none;
+  }
+}
