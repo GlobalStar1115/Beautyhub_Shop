@@ -30,6 +30,10 @@
   .collection-list-wrapper.home1-collection-list .collection-list {
     padding: 0px;
   }
+
+  .collection-list-wrapper.home1-collection-list .collection-list a {
+    font-size: 12px;
+  }
 }
 
 
