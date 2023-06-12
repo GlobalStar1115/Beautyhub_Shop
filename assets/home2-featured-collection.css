@@ -58,4 +58,8 @@
   .home2-featured-collection .link.custom-view-all, .home2-featured-collection .custom-slider-buttons.slider-button--prev, .home2-featured-collection .custom-slider-buttons.slider-button--next {
     display: none;
   }
+
+  .home2-featured-collection .slider-component.page-width {
+    padding: 0;
+  }
 }
