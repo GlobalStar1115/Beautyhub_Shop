@@ -21,3 +21,11 @@
 .collection-list-wrapper.home1-collection-list {
   padding: 0 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .collection-list-wrapper.home1-collection-list {
+    padding: 0px;
+  }
+}
+
+
