@@ -33,4 +33,16 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .home-multicolumn .multicolumn-card__info h4 strong {
+    font-size: 12px;
+  }
+
+  .home-multicolumn .multicolumn-card__info a {
+    font-size: 14px;
+  }
+
+  .home-multicolumn meida {
+    height: 200px;
+  }
 }
