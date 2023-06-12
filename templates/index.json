@@ -44,6 +44,7 @@
     },
     "6dc0bb32-5f5f-4f4c-822c-455270132079": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/documents_gen_1.jpg",
         "image_overlay_opacity": 0,
