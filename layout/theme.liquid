@@ -37,9 +37,12 @@
     {%- endif -%}
 
     {{ content_for_header }} 
- {{ 'servicify-asset.js' | asset_url | script_tag }}
-{% include 'custom-login-popup' %}
-
+    {{ 'servicify-asset.js' | asset_url | script_tag }}
+    
+    {% comment %}
+    {% include 'custom-login-popup' %}
+    {% endcomment %}
+    
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
