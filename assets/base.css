@@ -19,6 +19,10 @@
     background: white;
 }
 
+#login-register-popup .login a {
+  display: block !important;
+}
+
 .mp_sp_page .mp-banner-container img {
     max-width: 100% !important;
     height: 500px !important;
