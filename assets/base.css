@@ -18,11 +18,10 @@
   text-decoration: none;
 }
 
-.mega-menu__list li:first-child a {
+/* .mega-menu__list li:first-child a {
   font-size: 2rem;
   font-weight: 600;
-  padding-bottom: 20px;
-}
+} */
 
 .mega-menu__list li a {
   font-size: 1.6rem;
