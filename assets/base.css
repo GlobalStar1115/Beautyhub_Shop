@@ -18,6 +18,11 @@
   text-decoration: none;
 }
 
+.mega-menu__list li:first-child a {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
 .mega-menu__list.page-width.mega-menu__list--condensed {
   padding: 0 40rem;
 }
