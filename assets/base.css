@@ -10,6 +10,11 @@
   font-family: 'Nike Futura', sans-serif !important;
 }
 
+.footer .list-social__item .icon {
+  width: 3rem;
+  height: 3rem;
+}
+
 .mega-menu svg {
   display: none;
 }
