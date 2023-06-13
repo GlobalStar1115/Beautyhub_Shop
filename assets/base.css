@@ -22,9 +22,15 @@ details[open].mega-menu>.header__menu-item {
   text-decoration: none;
 }
 
+details.mega-menu>.header__menu-item span {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
 details[open].mega-menu>.header__menu-item span {
   border-bottom: 2px solid black;
   padding-bottom: 4px;
+  margin-bottom: -6px
 }
 
 /* .mega-menu__list li:first-child a {
