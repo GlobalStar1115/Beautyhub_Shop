@@ -9,28 +9,28 @@
           "type": "link_list",
           "settings": {
             "heading": "Business Owners",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
         "bb3c38d3-b194-42e8-907e-d58bf5de6b99": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Shop",
+            "menu": "main-menu"
           }
         },
         "067dd14d-4777-4893-a193-3d00b825ea01": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Policy",
+            "menu": "main-menu"
           }
         },
         "bc7c8365-6a06-4bf7-a8c7-e0310e8a9f85": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "About Us",
+            "menu": "main-menu"
           }
         },
         "15031ab3-5693-4498-b2dd-846f8f9efd58": {
