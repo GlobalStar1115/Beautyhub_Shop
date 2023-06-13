@@ -14,6 +14,10 @@
   display: none;
 }
 
+.mega-menu .mega-menu__link:hover, .mega-menu__link--active {
+  text-decoration: none;
+}
+
 .mega-menu__list.page-width.mega-menu__list--condensed {
   padding: 0 40rem;
 }
