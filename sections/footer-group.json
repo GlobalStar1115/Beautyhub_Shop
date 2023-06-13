@@ -12,30 +12,54 @@
             "menu": "footer"
           }
         },
-        "footer-1": {
+        "bb3c38d3-b194-42e8-907e-d58bf5de6b99": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "Quick links",
             "menu": "footer"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "067dd14d-4777-4893-a193-3d00b825ea01": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "bc7c8365-6a06-4bf7-a8c7-e0310e8a9f85": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "b218d9be-1f33-4402-b727-86fb80bda217": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "52791bd3-1294-4e7a-9f0b-e9fba38d2fe5": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
           }
         }
       },
       "block_order": [
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "bb3c38d3-b194-42e8-907e-d58bf5de6b99",
+        "067dd14d-4777-4893-a193-3d00b825ea01",
+        "bc7c8365-6a06-4bf7-a8c7-e0310e8a9f85",
+        "b218d9be-1f33-4402-b727-86fb80bda217",
+        "52791bd3-1294-4e7a-9f0b-e9fba38d2fe5"
       ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
