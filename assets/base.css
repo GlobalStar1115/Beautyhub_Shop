@@ -14,6 +14,10 @@
   display: none;
 }
 
+.mega-menu__list.page-width.mega-menu__list--condensed {
+  padding: 0 100px;
+}
+
 #login-register-popup {
     position: fixed;
     left: 50%;
