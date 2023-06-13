@@ -20,7 +20,7 @@
 
 details[open].mega-menu>.header__menu-item {
   text-decoration: none;
-  border-bottom: 2px solid block;
+  border-bottom: 2px solid black;
   padding-bottom: 10px;
 }
 
