@@ -10,6 +10,10 @@
   font-family: 'Nike Futura', sans-serif !important;
 }
 
+.mega-menu svg {
+  display: none;
+}
+
 #login-register-popup {
     position: fixed;
     left: 50%;
