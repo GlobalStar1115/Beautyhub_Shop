@@ -19,6 +19,11 @@
 }
 
 .mega-menu__list li:first-child a {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.mega-menu__list li a {
   font-size: 1.6rem;
   font-weight: 600;
 }
