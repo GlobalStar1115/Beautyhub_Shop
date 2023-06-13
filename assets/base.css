@@ -20,9 +20,11 @@
 
 details[open].mega-menu>.header__menu-item {
   text-decoration: none;
+}
+
+details[open].mega-menu>.header__menu-item span {
   border-bottom: 2px solid black;
   padding-bottom: 4px;
-  padding-right: 12px;
 }
 
 /* .mega-menu__list li:first-child a {
