@@ -25,6 +25,10 @@
     object-fit: cover !important;
 }
 
+.wk-seller-profile .mp-subscribe-btn {
+  display: none;
+}
+
 .mega-menu .mega-menu__link:hover,
 .mega-menu__link--active {
   text-decoration: none;
