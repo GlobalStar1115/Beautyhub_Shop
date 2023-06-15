@@ -35,7 +35,7 @@ body {
   max-width: var(--page-width);
   margin: 0 auto;
   flex: 1 0 auto;
-  font-family: var(--font-body-family);
+  font-family: 'Nike Futura', sans-serif;
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
@@ -54,7 +54,7 @@ h1,
 .h1,
 h2,
 .h2 {
-  font-family: var(--font-heading-family);
+  font-family: 'Nike Futura', sans-serif;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
@@ -68,6 +68,7 @@ h1,
 }
 
 @media only screen and (min-width: 750px) {
+
   h1,
   .h1 {
     font-size: calc(var(--font-heading-scale) * 4rem);
@@ -80,6 +81,7 @@ h2,
 }
 
 @media only screen and (min-width: 750px) {
+
   h2,
   .h2 {
     font-size: calc(var(--font-heading-scale) * 2.4rem);
@@ -246,7 +248,7 @@ h2,
   margin: 0 auto;
 }
 
-.gift-card__buttons > .button {
+.gift-card__buttons>.button {
   display: block;
   margin: 1rem 0;
 }
