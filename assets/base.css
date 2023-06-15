@@ -19,6 +19,12 @@
   display: none;
 }
 
+.mp-store-logo #store_logo_image {
+    width: 200px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
 .mega-menu .mega-menu__link:hover,
 .mega-menu__link--active {
   text-decoration: none;
