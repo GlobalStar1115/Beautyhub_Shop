@@ -1,0 +1,261 @@
+ <link href="https://sp-seller.webkul.com/css/bootstrap-grid-only-css.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+{{ 'wk-seller-category.css' | asset_url | stylesheet_tag }}
+
+<script>  
+	!function(){function e(){}window.wk_seller_collection=void(e.api_url="https://sp-seller.webkul.com/",e.mvm_api_url="https://mvmapi.webkul.com/",e.with_collection=1,e.seller="{{collection.handle}}",e.email="{{ customer.email }}",e.feedback_labels={rating_err:"Please give some rating first.",name_err:"Enter your name.",email_err:"Enter a valid email address.",summary_err:"Write some summary about feedback.",query_err:"Write your Query.",feed_err:"Write your feedback.",script_tags_err:"Script tags are not allowed.",tags_err:"Script tags are not allowed. Please try again after some time.",sww_err:"Something went wrong. Please try again after some time.",invalid_customer_err:"Invalid Customer! The customer needs to buy at least 1 product of this seller to give feedback.",review_err:"Your review has already been submitted before.",no_review_err:"No review exist."},e.loadjQuery=function(t){return e.loadScript("//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",function(){return e.$=jQuery.noConflict(),e.$("#total_rate").length&&(e.loadCss(e.api_url+"lib/rateyo/jquery.rateyo.min.css"),e.loadScript(e.api_url+"lib/rateyo/jquery.rateyo.min.js",function(){})),t()})},e.loadScript=function(e,t){var l;return(l=document.createElement("script")).type="text/javascript",l.readyState?l.onreadystatechange=function(){if("loaded"===l.readyState||"complete"===l.readyState)return l.onreadystatechange=null,t()}:l.onload=function(){return t()},l.src=e,document.getElementsByTagName("head")[0].appendChild(l)},e.loadCss=function(e){var t=document.getElementsByTagName("head")[0],l=document.createElement("link");return l.setAttribute("href",e),l.setAttribute("rel","stylesheet"),l.setAttribute("type","text/css"),t.appendChild(l),l},e.getSellerHandle=function(){var t=decodeURIComponent(e.getRequestParam("q"));return t?(t=(t=(t=(t=(t=(t=(t=t.toLowerCase()).split(/[!"#$%()*+,.\/:;<=>?\\@\[\]\^`’{|}~]/).join("")).split(/\s+/).join(" ")).trim()).split(/[\s+_&\']/).join("-")).split(/[?]/).join("")).split(/-{2,}/).join("-"),console.log("seller handle: "+t),t):""},e.getRequestParam=function(e){for(var t=window.location.search.substring(1).split("&"),l=0;l<t.length;l++)if((param=t[l].split("="))[0]==e)return param[1];return 0},e.showSellerData=function(){var t=Shopify.shop;data={shop_name:t,filter:'{"handle": "'+e.seller+'"}',customer_email:e.email},e.$.ajax({type:"GET",data:data,url:e.mvm_api_url+"api/v2/public/sellers.json",success:function(l){if(l.sellers,l.sellers&&(l.sellers[0],1)&&l.sellers[0]){var r=l.sellers[0].seller_name,a=l.sellers[0].shop_logo,i=l.sellers[0].short_desc,s=l.sellers[0].seller_desc,n=l.sellers[0].policy,o=l.sellers[0].store_banner,c=l.sellers[0].default_banner,m=l.sellers[0].store_logo,d=l.sellers[0].store_name,p=l.sellers[0].date_joined,u=parseInt(l.sellers[0].total_products),f=parseInt(l.sellers[0].total_sales),h=l.sellers[0].city,b=l.sellers[0].state,v=l.sellers[0].country;if(p=new Date(p.split("T")[0]),a&&e.$("img#shop_logo_image").length>0?e.$("img#shop_logo_image").attr("src",a):e.$("img#shop_logo_image").length>0&&e.$("img#shop_logo_image").parent().hide(),o&&e.$("img#mp_seller_banner").length>0?e.$("img#mp_seller_banner").attr("src",o):c&&e.$("img#mp_seller_banner").length>0?e.$("img#mp_seller_banner").attr("src",c):e.$("img#mp_seller_banner").length>0&&e.$("img#mp_seller_banner").parent().hide(),m&&e.$("img#store_logo_image").length>0?e.$("img#store_logo_image").attr("src",m):""==m&&e.$("img#store_logo_image").length>0&&e.$("img#store_logo_image").attr("src","https://sp-seller.webkul.com/img/store_logo/icon-user.png"),e.$(".mp-store-name").length>0&&e.$(".mp-store-name").html("<span>"+d+"</span>"),e.$(".mp-store-short-desc").length>0&&""!=i&&e.$(".mp-store-short-desc").html(i),u&&e.$("#mp_seller_total_products").length>0?e.$("#mp_seller_total_products").text(u):u||e.$("#mp_seller_total_products").parent().hide(),e.$("#description").length>0&&e.$("#description").html(s||"Not Available"),f&&e.$("#mp_seller_total_sales").length>0?e.$("#mp_seller_total_sales").text(f):f||e.$("#mp_seller_total_sales").parent().hide(),e.$("#mp_seller_join_since").length>0&&e.$("#mp_seller_join_since").text(p.getDate()+" "+["January","February","March","April","May","June","July","August","September","October","November","December"][p.getMonth()]+", "+p.getFullYear()),e.$("#mp_seller_location").length>0&&null!=h&&null!=b&&null!=v?e.$("#mp_seller_location").text(" "+h+", "+b+", "+v):e.$("#mp_seller_location").length>0&&e.$("#mp_seller_location").text("Not Available"),e.$("#mp_seller_name").length>0&&e.$("#mp_seller_name").text(r),e.$(".wk-collection-profile").parent().css("overflow","hidden"),e.$(".wk-collection-profile").slideDown(500),e.$(".wk-collection-profile-hide").hide(),l.sellers[0].review_avg,e.$("#total_rate").length>0){var g=parseInt(l.sellers[0].review_count);g>0?(e.$("#total_rate").rateYo({starWidth:"15px",rating:""!=l.sellers[0].review_avg?l.sellers[0].review_avg:0,spacing:"5px",multiColor:{startColor:"#FF0000",endColor:"#00FF00"},readOnly:!0,numStars:5}),e.$(".wk_rate_it").append(" ("+g+")")):e.$(".wk_rate_it").hide()}e.$(function(){e.$("#rate_div").rateYo({starWidth:"18px",spacing:"5px",multiColor:{startColor:"#FF0000",endColor:"#00FF00"},numStars:5,maxValue:5,halfStar:!0}).on("rateyo.set",function(t,l){e.$("#customer_feedback").attr("value",l.rating)})}),0==l.sellers[0].review_count?(e.$("#review-tab").parent().hide(),e.$("#review").hide()):l.sellers[0].feedbacks.forEach(function(t,l){var r='<div class=" mp-bdr-gray mp-mrgn-btm-12 mp-pad-btm-12 pull-left mp-full-width"><div class="col-md-3 col-lg-3 col-sm-12 col-xs-12"><div>'+t.name+"</div><div>"+t.date_add.date.replace(".000000","")+"</div>";t.verified_customer&&(r+='<div style="font-size:15px;padding-top:5px" class="wk_vrfd_cstm"><h6><i class="fa fa-check-circle"></i><span>Verified Customer</span></h6></div>'),r+='</div><div class="col-md-6 col-lg-6 col-sm-12 col-xs-12"><div id="title_'+l+'" value="'+t.review_title+'">'+t.review_title+'</div><div id="rate_'+l+'" class="rateit rate" value="'+t.review_star+'"></div><div id="feedback_'+l+'" value="'+t.review_content+'">'+t.review_content+'</div></div><div class="col-md-3 col-lg-3 col-sm-4 col-xs-4">',t.to_edit&&(r+='<div style="cursor:pointer"><span class="edit_feedback_modal mp-subscribe-btn mp-mrgn-btm-12" value="'+l+'" >Edit your review<span></div></div></div>'),e.$("#review").append(r),e.$(function(){e.$("#rate_"+l).rateYo({starWidth:"15px",rating:t.review_star,spacing:"5px",multiColor:{startColor:"#FF0000",endColor:"#00FF00"},readOnly:!0,numStars:5})})}),2!=l.sellers[0].seller_policy_type?e.$("#policy").length>0&&e.$("#policy").html(n||"Not Available"):e.$.ajax({type:"GET",data:{shop_name:t,seller_id:l.sellers[0].seller_id},url:e.mvm_api_url+"api/v2/public/sellers/advance_policy.json",success:function(t){if(t.policy[0].advance_seller_policy,t.policy[0].advance_seller_policy.length>0){var l=e.$("#policy").html();l?(t.policy[0].advance_seller_policy.forEach(function(t,r){if(""==t.variable_value)return e.$("#policy").html("Not Available"),l="Not Available",!1;l=l.replace("{$"+t.variable_name+"}",t.variable_value)}),e.$("#policy").html(l)):e.$("#policy").html("Not Available")}else e.$("#policy").html("Not Available")},error:function(e){}})}else console.log("seller data not found")},error:function(e){}})},e.submitContactForm=function(t){var l=t.find("input[name='name']").val().trim(),r=t.find("input[name='email']").val().trim(),a=t.find("textarea[name='query']").val().trim(),i=/(<([^>]+)>)/ig;return a=encodeURIComponent(a),t.find(".mp-err").html(""),t.siblings(".mp-success").hide(),l.length<1?t.find(".mp-err").html("Enter your name."):/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(r)?a.length<1?t.find(".mp-err").html("Write your query"):i.test(r)||i.test(l)||i.test(a)?t.find(".mp-err").html("Script tags are not allowed"):(e.$("#query-btn").hide(),e.$.ajax({url:e.api_url+"index.php?p=vc_seller_profile",async:!0,cache:!1,jsonpCallback:"query",contentType:"application/json",dataType:"jsonp",data:{name:l,shop:Shopify.shop,email:r,seller:e.seller,is_preview:0,query:a},beforeSend:function(){},success:function(l){"script_error"==l?t.find(".mp-err").html("Script tags are not allowed.. please try again after some time."):"sww"==l?t.find(".mp-err").html("something went wrong.. please try again after some time."):"success"==l&&(t.siblings(".mp-success").show(),t.slideUp(function(){e.$(this).remove()}))},error:function(t,l,r){e.$("#query-btn").show(),console.log(t.status),console.log(r)},complete:function(){}})):t.find(".mp-err").html("Enter a valid email address"),!1},e.updateFeedbackForm=function(t){if(e.customer_id=e.$("body").find("div.wk-collection-profile").data("cust"),e.customer_id){var l=t.find("input[name='name']").val().trim(),r=t.find("input[name='email']").val().trim(),a=Number(t.find("input[name='rating']").val()),i=t.find("textarea[name='feedback']").val().trim(),s=t.find("input[name='title']").val().trim(),n=/(<([^>]+)>)/ig;return i=encodeURIComponent(i),s=encodeURIComponent(s),t.find(".mp-err").html(""),t.siblings(".mp-success").hide(),a<.5?t.find(".mp-err").html(e.feedback_labels.rating_err):l.length<1?t.find(".mp-err").html(e.feedback_labels.name_err):/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(r)?s.length<1?t.find(".mp-err").html(e.feedback_labels.summary_err):i.length<1?t.find(".mp-err").html(e.feedback_labels.feed_err):n.test(r)||n.test(l)||n.test(s)||n.test(i)?t.find(".mp-err").html(e.feedback_labels.script_tags_err):e.$.ajax({url:e.api_url+"index.php?p=vc_seller_profile",async:!0,cache:!1,jsonpCallback:"updateFeedback",contentType:"application/json",dataType:"jsonp",data:{name:l,shop:Shopify.shop,email:r,title:s,seller:e.seller,is_preview:0,rating:a,feedback:i},beforeSend:function(){},success:function(l){"script_error"==l?t.find(".mp-err").html(e.feedback_labels.script_tags_err):"sww"==l?t.find(".mp-err").html(e.feedback_labels.sww_err):"success"==l?(t.siblings(".mp-success").show(),t.slideUp(function(){e.$(this).remove()})):"no_review"==l&&t.find(".mp-err").html(wk-seller_collection.feedback_labels.no_review_err)},error:function(e,t,l){console.log(e.status),console.log(l)},complete:function(){}}):t.find(".mp-err").html(e.feedback_labels.email_err),!1}event.preventDefault();var o=encodeURIComponent(window.location.href);window.location.href="/account/login?checkout_url="+o},e.submitFeedbackForm=function(t){var l=t.find("input[name='name']").val().trim(),r=t.find("input[name='email']").val().trim(),a=Number(t.find("input[name='rating']").val()),i=t.find("textarea[name='feedback']").val().trim(),s=t.find("input[name='title']").val().trim(),n=/(<([^>]+)>)/ig;return i=encodeURIComponent(i),s=encodeURIComponent(s),t.find(".mp-err").html(""),t.siblings(".mp-success").hide(),a<.5?t.find(".mp-err").html(e.feedback_labels.rating_err):l.length<1?t.find(".mp-err").html(e.feedback_labels.name_err):/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(r)?s.length<1?t.find(".mp-err").html(e.feedback_labels.summary_err):i.length<1?t.find(".mp-err").html(e.feedback_labels.feed_err):n.test(r)||n.test(l)||n.test(s)||n.test(i)?t.find(".mp-err").html(e.feedback_labels.script_tags_err):(e.$(".wk-feedback-submit").hide(),e.$.ajax({url:e.api_url+"index.php?p=vc_seller_profile",async:!0,cache:!1,jsonpCallback:"feedback",contentType:"application/json",dataType:"jsonp",data:{name:l,shop:Shopify.shop,email:r,title:s,seller:e.seller,is_preview:0,rating:a,feedback:i},beforeSend:function(){},success:function(l){"script_error"==l?t.find(".mp-err").html(e.feedback_labels.tags_err):"sww"==l?t.find(".mp-err").html(e.feedback_labels.sww_err):"success"==l?(t.siblings(".mp-success").show(),t.slideUp(function(){e.$(this).remove()})):"invalid_customer"==l?t.find(".mp-err").html(e.feedback_labels.invalid_customer_err):"already_reviwed"==l&&t.find(".mp-err").html(e.feedback_labels.review_err),e.$(".wk-feedback-submit").show()},error:function(t,l,r){console.log(t.status),console.log(r),e.$(".wk-feedback-submit").show()},complete:function(){}})):t.find(".mp-err").html(e.feedback_labels.email_err),!1}),setTimeout(function(){e.loadjQuery(function(){if(!e.with_collection){if(!("vendors"==e.seller&&e.getRequestParam("q")))return!1;e.seller=e.getSellerHandle()}e.$("body").on("click","#contact_modal",function(t){e.$("#myModal").show()}),e.$("body").on("click","#wk-close-contact, #wk-close-feedback",function(t){e.$("#myModal").hide(),e.$("#myModalFeedback").hide()}),e.$(window).click(function(t){e.$("#myModal").length>0&&t.target==e.$("#myModal")[0]&&e.$("#myModal").hide(),e.$("#myModalFeedback").length>0&&t.target==e.$("#myModalFeedback")[0]&&e.$("#myModalFeedback").hide()}),e.$("body").on("submit",".mp-contact-form",function(t){t.preventDefault(),e.submitContactForm(e.$(this))}),e.$("body").on("click","button.wk-nav-link",function(){var t=e.$(this).data("mdb-target"),l=e.$("button.wk-nav-link.active").data("mdb-target");e.$("button.wk-nav-link.active").removeClass("active"),e.$(l).removeClass("show"),e.$(this).addClass("active"),e.$(t).addClass("show"),e.$(".wk-seller-products").hide()}),e.$("body").on("click",".edit_feedback_modal",function(){var t=e.$(this).attr("value");title=e.$("#title_"+t).attr("value"),description=e.$("#feedback_"+t).attr("value"),review_star=e.$("#rate_"+t).attr("value"),e.$("#update_title").attr("value",title),e.$("#update_feedback").val(description),e.$("#customer_update_feedback").attr("value",review_star),e.$(function(){e.$("#rate_update_div").rateYo({starWidth:"18px",spacing:"5px",rating:review_star,multiColor:{startColor:"#FF0000",endColor:"#00FF00"},numStars:5,maxValue:5,halfStar:!0}).on("rateyo.set",function(t,l){e.$("#customer_update_feedback").attr("value",l.rating)})});var l=e.$("body").find("div.wk_cstm_name").data("cust"),r=e.$("body").find("div.wk_cstm_email").data("cust");r&&l&&(e.$(".cust_lgn").addClass("hidden"),e.$(".cust_name").val(l),e.$(".cust_email").val(r)),e.$("#myModalFeedback").show()}),e.$("body").on("submit",".mp-feedback-update-form",function(t){t.preventDefault(),e.updateFeedbackForm(e.$(this))}),e.$("body").on("submit",".mp-feedback-form",function(t){t.preventDefault(),e.submitFeedbackForm(e.$(this))}),e.showSellerData()})},2e3)}();
+</script>
+
+<div class="wk-collection-profile" data-cust="{{ customer.id }}" style="display: none">
+  <div class="wk_cstm_email" data-cust="{{ customer.email }}"></div>
+  <div class="wk_cstm_name" data-cust="{{ customer.name }}"></div>
+
+  <div class="container container-tmargin mp-full-width">
+    <input type="hidden" id="wk_prod_current_page" value="1">
+   	<div class="row">
+    	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mp-no-lr-pad mp-banner-container mp-mrgn-btm-12 mp-full-width text-center">
+			  <img style="min-height:100px;overflow:hidden;width:100%" src="" id="mp_seller_banner" alt="seller store banner">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  	<div class="row">
+      <!-- store logo block -->             
+    	<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 wk-seller-logo mp-pad-15">
+        <div class="mp-store-logo mp-mrgn-btm-12 wk-parent-logo">
+          <div class="wk-child-logo">
+            <img src="" id="shop_logo_image" alt="shop logo">
+          </div>
+        </div>
+      </div>
+      <!-- store logo block end -->             
+		  <!-- store info block -->             
+      <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 ">
+        <div class="row mp-mrgn-btm-12 mp-pad-15">
+          <!-- store name block -->
+          <div class="mp-store-name mp-mrgn-btm-5"></div>
+          <!-- store short description block -->                        
+          <div class="mp-store-short-desc mp-mrgn-btm-5"></div>
+          <!-- store location block -->                        
+          <div class="mp-location mp-color-gray mp-mrgn-btm-5">
+            <span class="fa fa-map-marker"></span>
+            <span id="mp_seller_location"></span>
+          </div>
+			    <!-- store info about product and join block -->                        
+          <div class="mp-color-gray mp-mrgn-btm-5">
+            <span class="fa fa-chain"></span>                      								
+            <span>Join Since  <span id="mp_seller_join_since"></span> </span>
+            <span> | Total Products <span id="mp_seller_total_products"></span></span>
+            <span> | Total Sale <span id="mp_seller_total_sales"></span> </span>
+          </div>
+                                          
+          <!-- store review rating block -->                        
+          <div class="wk_rate_it mp-mrgn-btm-5">
+            <span id="total_rate" class="rateit jq-ry-container" readonly="readonly" style="width: 95px;"></span>
+          </div>
+              
+          <!-- store like block -->
+          <div class="mp-mrgn-btm-5 hidden" id="wk-store-like-block">
+            <button class="btn button-primary" id="wk-like-btn"><span class="fa fa-thumbs-up"></span><span id="wk-like-text" data-total-like="" data-total-count="" data-like=""></span><span id="wk-like-count"></span></button>
+            <input type="hidden" id="wk-like-label" data-label-like="Like Shop">
+            <input type="hidden" id="wk-liked-label" data-label-liked="Liked">
+          </div>
+			  </div>
+      </div>
+      <!-- store info block end-->                             	
+      <!-- store profile block -->             
+      <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 wk-seller-profile mp-pad-15">
+        <div>SHOP OWNER</div>
+        <!-- seller profile pic -->                                 
+        <div class="mp-store-logo mp-mrgn-btm-12">
+          <img src="" id="store_logo_image" style="width: 65px; border-radius: 150px;" alt="store logo">
+        </div>
+        <!-- seller profile pic end -->                         				
+        <!-- seller name block -->        
+        <div class="mp-mrgn-btm-12" id="mp_seller_name"></div>
+        <!-- seller contact form -->                    
+        <!-- Trigger the modal with a button -->
+        <div class="mp-mrgn-btm-12">
+          <span id="contact_modal" class="mp-subscribe-btn mp-mrgn-btm-12">
+            <span class="fa fa-envelope-o" aria-hidden="true"></span> Contact
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mp-mrgm-btm-12" id="mp-seller-tabs">
+        <div class="wk-responsive-tabs-container accordion-xs accordion-sm">
+          <ul class="wk-nav wk-nav-tabs mb-3" id="myTab0" role="tablist">
+					  <li class="wk-nav-item" role="presentation">
+              <button class="wk-nav-link active" id="seller-product-tab" data-mdb-toggle="tab" data-mdb-target=".wk-seller-products" type="button" role="tab" aria-controls="home" aria-selected="true">
+                Sellers Products
+              </button>
+            </li>
+            <li class="wk-nav-item" role="presentation">
+              <button class="wk-nav-link" id="review-tab" data-mdb-toggle="tab" data-mdb-target="#review" type="button" role="tab" aria-controls="home" aria-selected="true">
+                All Reviews
+              </button>
+            </li>
+            <li class="wk-nav-item" role="presentation">
+              <button class="wk-nav-link" id="feedback-tab" data-mdb-target="#add_feedback" type="button">
+                Feedback
+              </button>
+            </li>
+            <li class="wk-nav-item" role="presentation">
+              <button class="wk-nav-link" id="policy-tab" data-mdb-target="#policy" type="button">
+                Policy
+              </button>
+            </li>
+            <li class="wk-nav-item" role="presentation">
+              <button class="wk-nav-link" id="description-tab" data-mdb-target="#description" type="button">
+                Description
+              </button>
+            </li>
+          </ul>
+          <div class="wk-tab-content" id="myTabContent0">
+            <div class="wk-tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab"></div>
+            <div class="wk-tab-pane fade" id="add_feedback" role="tabpanel" aria-labelledby="feedback_tab">
+              <div class="mp-success mp-mrgn-btm-12">
+                Feedback submitted for approval
+              </div>
+              <form action="/" class="mp-feedback-form" method="post">
+                <div class="mp-mrgn-btm-12">
+                  <label>Rating</label>
+                  <input type="range" min="0" max="5" class="hidden" value="0" id="customer_feedback" name="rating">
+                  <div id="rate_div" class="rateit"></div>
+                </div>
+                <div class="cust_lgn {% if customer %}hidden{% endif %}">
+                  <label>Name</label>
+                  <input type="text" name="name" class="mp-full-width cust_name" value="{{ customer.name }}">
+                </div>
+                <div class="cust_lgn {% if customer %}hidden{% endif %}">
+                  <label>Email</label>
+                  <input type="text" name="email" class="mp-full-width cust_email" value="{{ customer.email }}">
+                </div>
+                <div>
+                  <label>Feedback Summary</label>
+                  <input type="text" name="title" class="mp-full-width">
+                </div>
+                <div>
+                  <label>Feedback</label>
+                  <textarea name="feedback" class="mp-full-width"></textarea>
+                </div>
+                <div>
+                <div class="mp-err"></div>
+                  <button type="submit" class="btn button-primary wk-feedback-submit">Submit</button>
+                </div>
+              </form>
+            </div>
+            <div class="wk-tab-pane fade" id="policy" role="tabpanel" aria-labelledby="policy-tab">
+              <h1>Shipping policy</h1>
+              <p>Ready to ship in {$delivery_days} business days</p>
+              <p>Ships out using: {$delivery_method_name}</p>
+              <p>Tracking code provided upon shipment</p>
+              <p>Delivery times: {$delivery_time}</p>
+              <p>{$other_info}</p>
+              <br>
+              <h1>Returns and exchange policy:</h1>
+              <p>We accept returns and exchanges on the following basis: you make contact with us within {$return_days} days of receiving your goods. Goods must be returned in original packaging with no signs of use / damage. Exchange solution dependent upon items in stock. Returns shall be refund ed within {$refund_days} days of goods reaching our door.</p>
+              <p>We (the vendor) are not liable for customs duty or taxes that may be imposed upon receiving your product / products. The customer is fully liable for these costs.</p>
+              <p>{$other_policy}</p>
+            </div>
+            <div class="wk-tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="myModal" class="wk-modal">
+	<!-- Modal content -->
+  <div class="wk-modal-content">
+    <div class="wk-modal-header">
+      <span>Contact to seller </span>
+      <span class="wk-close" id="wk-close-contact">×</span>
+    </div>
+    <div class="wk-modal-body">
+      <div class="mp-success mp-mrgn-btm-12">
+        Query submitted 
+      </div>
+      <form action="/" class="mp-contact-form mp-mrgn-btm-12" method="post">
+        <div>
+          <label>Name</label>
+          <input type="text" name="name" required="" class="mp-full-width">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" name="email" required="" class="mp-full-width">
+        </div>
+        <div>
+          <label>Query</label>
+          <textarea name="query" required="" class="mp-full-width"></textarea>
+        </div>
+        <div>
+          <div class="mp-err"></div>
+          <button type="submit" class="btn button-primary" id="query-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="myModalFeedback" class="wk-modal">
+	<!-- Modal content -->
+  <div class="wk-modal-content">
+    <div class="wk-modal-header">
+      <span>Update Review </span>
+      <span class="wk-close" id="wk-close-feedback">&times;</span>
+    </div>
+    <div class="wk-modal-body">
+			<div class="mp-success mp-mrgn-btm-12">
+        Feedback submitted 
+      </div>
+      <form action="/" class="mp-feedback-update-form mp-mrgn-btm-12" method="post">
+        <div class="mp-mrgn-btm-12">
+          <label>Rating</label>
+          <input type="range" min="0" max="5" class="hidden" id="customer_update_feedback" name="rating">
+          <div id="rate_update_div" class="rateit"></div>
+        </div>
+        <div class="cust_lgn">
+          <label>Name</label>
+          <input type="text" name="name" class="mp-full-width cust_name">
+        </div>
+        <div class="cust_lgn">
+          <label>Email</label>
+          <input type="text" name="email" class="mp-full-width cust_email">
+        </div>
+        <div>
+          <label>Feedback Summary</label>
+          <input type="text" name="title" id="update_title" class="mp-full-width">
+        </div>
+        <div>
+          <label>Feedback</label>
+          <textarea name="feedback" id="update_feedback" class="mp-full-width"></textarea>
+        </div>
+        <div>
+          <div class="mp-err"></div>
+          <button type="submit" class="btn button-primary">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% schema %}
+	{
+		"name": {
+			"en": "Seller Category Profile"
+		},
+		"settings": [],
+		"presets": [
+			{
+				"name": {
+					"en": "Seller Category Profile"
+				},
+				"category": {
+					"en": "Seller Category Profile"
+				}
+			}
+		]
+	}
+{% endschema %}
