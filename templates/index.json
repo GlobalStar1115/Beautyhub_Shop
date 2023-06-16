@@ -20,7 +20,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/family-pack",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "button_label_2": "JOIN AS SELLER",
             "button_link_2": "https:\/\/08735d.sp-seller.webkul.com",
