@@ -139,7 +139,7 @@
       },
       "16250556887416161327": {
         "type": "shopify:\/\/apps\/easy-appointment-booking\/blocks\/select_time\/cc7b690c-65b5-4bb4-a46c-1e4bd73e1c12",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "buttonTextAlign": "center",
           "classNames": "booking-sample-button",
