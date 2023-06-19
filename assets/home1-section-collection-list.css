@@ -4,6 +4,14 @@
   pading-left: 60px;
 }
 
+.home1-collection-list img {
+  filter: grayscale(100%);
+}
+
+.home1-collection-list .card:hover .home1-collection-list .card img {
+  filter: unset;
+}
+
 .home1-collection-list .card__content .full-unstyled-link {
   display: inline-block;
   font-weight: 600;
