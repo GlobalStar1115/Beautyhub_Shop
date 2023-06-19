@@ -8,7 +8,7 @@
   filter: grayscale(100%);
 }
 
-.home1-collection-list .card:hover .home1-collection-list .card img {
+.home1-collection-list .card:hover .home1-collection-list img {
   filter: unset;
 }
 
