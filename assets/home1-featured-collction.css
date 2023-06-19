@@ -6,14 +6,6 @@
     left: 40px;
 }
 
-.home1-collection-list img {
-  filter: grayscale(100%);
-}
-
-.home1-collection-list .card:hover .home1-collection-list .card img {
-  filter: unset;
-}
-
 .home1-featured-collection .slider-button.custom-slider-buttons {
     position: absolute;
     top: 50%;
