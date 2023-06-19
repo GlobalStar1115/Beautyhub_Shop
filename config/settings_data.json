@@ -131,9 +131,15 @@
 
     ],
     "blocks": {
+      "10821884108211614105": {
+        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "16250556887416161327": {
         "type": "shopify:\/\/apps\/easy-appointment-booking\/blocks\/select_time\/cc7b690c-65b5-4bb4-a46c-1e4bd73e1c12",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "buttonTextAlign": "center",
           "classNames": "booking-sample-button",
