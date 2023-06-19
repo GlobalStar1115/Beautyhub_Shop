@@ -8,8 +8,8 @@
   filter: grayscale(100%);
 }
 
-.home1-collection-list .card:hover .home1-collection-list img {
-  filter: unset;
+.home1-collection-list .card:hover img {
+  filter: unset !important;
 }
 
 .home1-collection-list .card__content .full-unstyled-link {
